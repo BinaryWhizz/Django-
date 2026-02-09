@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Description Page
+{% endblock %}
+
+{% block content %}
+<h1>All types of project descriptions available</h1>  
+
+<h3>{{binary.name}}</h3>       {% comment %} 'binary'-variable from views.py line 12, 'name' from models.py line 14 {% endcomment %}
+<p>{{binary.description}}</p>  {% comment %} 'description' from models.py line 18 {% endcomment %}
+
+{% endblock %} 
+

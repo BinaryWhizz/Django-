@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Project Page
+{% endblock %}
+
+{% block content %}
+<h1>All types of projects available</h1>
+
+{% for i in binaries %}      
+
+{% comment %} Here binaries is from views.py - line 8 - {'binaries': binaries})  {% endcomment %} 
+<div class="binary-item">
+
+{% comment %} image is from models.py - line 15 & url after image is necessary {% endcomment %} 
+    <img src="{{i.image.url}}" alt=""> 
+
+    <h3>{{i.name}}</h3>  
+
+    {% comment %} Injecting template-{% %} {% endcomment %}
+    <a href="{% url 'binary_description' i.id %}">      {% comment %} 'binary_description'-string from urls.py line 8 {% endcomment %}    
+        <button>
+            {{i.type}} - {{i.id}}
+        </button>
+    </a>
+</div>
+
+{% endfor %} 
+
+{% endblock %} 
+

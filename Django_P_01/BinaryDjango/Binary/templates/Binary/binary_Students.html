@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+test content for forms 
+
+<form method="POST">
+    {% csrf_token %}    {% comment %} Whenever form created this {% csrf_token %} must be given {% endcomment %}
+    {{form.as_p}}
+    <button type='Submit'>Search Student</button>
+</form>
+
+{% if students %}
+
+<h2>Students available</h2>
+
+<ul>
+    {% for i in students %}
+    <li>{{ i.name }} - {{ i.location }}</li>
+    {% endfor %}
+</ul>
+
+{% endif %}
+{% endblock %}
