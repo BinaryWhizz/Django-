@@ -1,2 +1,2 @@
 # Django-
-Repository containing my project codes - Django web framework 
+Repository containing my projects codes (Django web framework)
