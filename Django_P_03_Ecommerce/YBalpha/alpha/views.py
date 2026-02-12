@@ -11,3 +11,6 @@ def about(request):
 
 def contact(request):
     return render(request, 'alpha/contact.html')
+
+def material(request):
+    return render(request, 'alpha/material.html')
