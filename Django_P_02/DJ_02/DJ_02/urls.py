@@ -21,5 +21,9 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('/', include('binary.urls')), # Wrong(correct it)
+    # path('/', include('binary.urls')), # Wrong(correct it)
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) 
+
+
+
+# Upto 30 mins 

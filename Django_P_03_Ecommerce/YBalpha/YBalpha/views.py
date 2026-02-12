@@ -7,6 +7,6 @@ def home(request):
     return render(request, 'website/index.html')
 
 
-def about(request):
-    return HttpResponse("Hello, About page")
+# def about(request):
+#     return HttpResponse("Hello, About page")
 
