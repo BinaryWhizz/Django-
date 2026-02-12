@@ -14,3 +14,6 @@ def contact(request):
 
 def material(request):
     return render(request, 'alpha/material.html')
+
+def interior(request):
+    return render(request, 'alpha/interior.html')
