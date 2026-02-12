@@ -20,3 +20,6 @@ def interior(request):
 
 def manpower(request):
     return render(request, 'alpha/manpower.html')
+
+def civil(request):
+    return render(request, 'alpha/civil.html')
