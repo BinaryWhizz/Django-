@@ -17,3 +17,6 @@ def material(request):
 
 def interior(request):
     return render(request, 'alpha/interior.html')
+
+def manpower(request):
+    return render(request, 'alpha/manpower.html')
