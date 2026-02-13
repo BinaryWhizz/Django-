@@ -1,3 +1,16 @@
+/* WHOLE WEBSITE BACKGROUND - MORE BLUE */
+body{
+    background:
+        radial-gradient(circle at top right, rgba(255,255,255,0.5), transparent 40%),
+        linear-gradient(
+            to bottom,
+            #E3F0F8 0%,
+            #CFE6F4 50%,
+            #B8D8EC 100%
+        );
+}
+
+
 /* NAVBAR */
 .navbar{
     background: linear-gradient(to right, #5EA6CF, #4FA3D1);
@@ -26,7 +39,6 @@
 
 
 .hero{
-    background: url('static/images/lotus-design-n-print-VaGdhK-kI1c-unsplash.jpg') center center / cover no-repeat;
     height: 90vh;
     position: relative;
     color: white;
@@ -55,8 +67,172 @@
     background: linear-gradient(to bottom, #3C93C7, #2569A8);
 }
 
-/* Footer */
+/* Footer
 footer{
     background: #2E79B7;
     color:white;
+} */
+
+
+/* ===== FOOTER ===== */
+
+.main-footer{
+    background:#081B33;
+    color:#cbd6e2;
 }
+
+.footer-logo{
+    color:white;
+    font-weight:700;
+}
+
+.footer-links{
+    list-style:none;
+    padding:0;
+}
+
+.footer-links li{
+    margin-bottom:10px;
+}
+
+.footer-links a{
+    color:#cbd6e2;
+    text-decoration:none;
+}
+
+.footer-links a:hover{
+    color:#4FA3D1;
+}
+
+.consult-box{
+    background:#132845;
+    padding:15px;
+    border-radius:12px;
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.phone-icon{
+    background:#FFC107;
+    color:black;
+    padding:12px;
+    border-radius:50%;
+    font-size:18px;
+}
+
+.social-icons span{
+    background:#132845;
+    padding:10px 14px;
+    margin-right:10px;
+    border-radius:50%;
+    cursor:pointer;
+}
+
+/* ===== LIGHT BLUE FOOTER ===== */
+
+.main-footer{
+    background: linear-gradient(to right, #7FC0E4, #4FA3D1);
+    color: white;
+}
+
+.main-footer p{
+    color:#f2f9ff;
+}
+
+.footer-logo{
+    color:white;
+    font-weight:700;
+}
+
+/* links */
+.footer-links{
+    list-style:none;
+    padding:0;
+}
+
+.footer-links li{
+    margin-bottom:10px;
+}
+
+.footer-links a{
+    color:#eef7fd;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.footer-links a:hover{
+    color:white;
+    padding-left:5px;
+}
+
+/* consultation box */
+.consult-box{
+    background: rgba(255,255,255,0.25);
+    padding:15px;
+    border-radius:12px;
+    display:flex;
+    align-items:center;
+    gap:15px;
+    backdrop-filter: blur(6px);
+}
+
+.phone-icon{
+    font-size:18px;
+    background:#FFD54F;
+    color:black;
+    padding:12px;
+    border-radius:50%;
+}
+
+/* social icons */
+/* ICON CIRCLES */
+
+.icon-circle{
+    width:55px;
+    height:55px;
+    background: rgba(255,255,255,0.35);
+    border-radius:50%;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    margin-right:12px;
+    transition:0.3s ease;
+}
+
+.icon-circle i{
+    font-size:20px;
+    color:white;
+}
+
+/* hover effect */
+.icon-circle:hover{
+    background:white;
+    transform: translateY(-4px);
+}
+
+.icon-circle:hover i{
+    color:#2E79B7;
+}
+
+
+/* bottom bar */
+.footer-bottom{
+    background:#4FA3D1;
+    border-top:1px solid rgba(255,255,255,0.4);
+    padding:15px 0;
+    font-size:14px;
+}
+
+
+/* LIGHT BLUE CONTACT BACKGROUND (LIKE DESIGN IMAGE) */
+/* .contact-section{
+    background:
+        radial-gradient(circle at top right, rgba(255,255,255,0.6), transparent 45%),
+        linear-gradient(
+            to bottom,
+            #F6FAFD 0%,
+            #EAF3F9 50%,
+            #DCEAF4 100%
+        );
+} */
