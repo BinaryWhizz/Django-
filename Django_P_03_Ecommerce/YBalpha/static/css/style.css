@@ -1,47 +1,62 @@
+/* NAVBAR */
+.navbar{
+    background: linear-gradient(to right, #5EA6CF, #4FA3D1);
+}
 
-    body {
-      font-family: Arial, sans-serif;
-    }
+.navbar .nav-link,
+.navbar-brand{
+    color:white !important;
+}
 
-    .hero {
-      background: url('https://images.unsplash.com/photo-1503387762-592deb58ef4e') center/cover no-repeat;
-      height: 80vh;
-      position: relative;
-      color: white;
-      display: flex;
-      align-items: center;
-    }
+/* MAIN BUTTON STYLE */
+.btn-main{
+    background: linear-gradient(to bottom, #4FA3D1, #2E79B7);
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
 
-    .hero-overlay {
-      background: rgba(0, 0, 0, 0.6);
-      position: absolute;
-      width: 100%;
-      height: 100%;
-    }
+.btn-main:hover{
+    background: linear-gradient(to bottom, #3C93C7, #2569A8);
+    transform: translateY(-2px);
+}
 
-    .hero-content {
-      position: relative;
-      z-index: 2;
-    }
 
-    .section-title {
-      font-weight: bold;
-      margin-bottom: 40px;
-    }
+.hero{
+    background: url('static/images/lotus-design-n-print-VaGdhK-kI1c-unsplash.jpg') center center / cover no-repeat;
+    height: 90vh;
+    position: relative;
+    color: white;
+}
 
-    .card img {
-      height: 200px;
-      object-fit: cover;
-    }
 
-    .contact-section {
-      background: #f8f9fa;
-      padding: 60px 0;
-    }
+/* Card Buttons */
+.card .btn{
+    background: linear-gradient(to bottom, #4FA3D1, #2E79B7);
+    color:white;
+    border:none;
+}
 
-    .footer {
-      background: #212529;
-      color: white;
-      padding: 20px 0;
-      text-align: center;
-    }
+.card .btn:hover{
+    background: linear-gradient(to bottom, #3C93C7, #2569A8);
+}
+
+/* Send Enquiry Button */
+.contact-box .btn{
+    background: linear-gradient(to bottom, #4FA3D1, #2E79B7);
+    color:white;
+    border:none;
+}
+
+.contact-box .btn:hover{
+    background: linear-gradient(to bottom, #3C93C7, #2569A8);
+}
+
+/* Footer */
+footer{
+    background: #2E79B7;
+    color:white;
+}

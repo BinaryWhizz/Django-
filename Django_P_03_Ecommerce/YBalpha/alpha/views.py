@@ -23,3 +23,6 @@ def manpower(request):
 
 def civil(request):
     return render(request, 'alpha/civil.html')
+
+def services(request):
+    return render(request, 'alpha/services.html')
