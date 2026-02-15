@@ -358,4 +358,53 @@ footer{
 }
 
 
+/* ===== PROJECTS CTA SECTION ===== */
+
+.projects-cta{
+    background: linear-gradient(
+        to right,
+        #7FC0E4,
+        #4FA3D1
+    );
+    color:white;
+}
+
+
+/* small top text */
+.cta-subtitle{
+    letter-spacing:2px;
+    font-size:13px;
+    color: black;
+    font-weight:600;
+}
+
+/* main heading */
+.cta-title{
+    font-size:42px;
+    font-weight:800;
+    color:#111;
+    line-height:1.3;
+}
+
+/* highlighted word */
+.cta-highlight{
+    color: black;
+}
+
+/* button */
+.cta-btn{
+    background: blue;
+    color:white;
+    padding:12px 30px;
+    border-radius:6px;
+    font-weight:600;
+    border:none;
+}
+
+.cta-btn:hover{
+    background: #2E79B7;
+    color:white;
+}
+
+
 
